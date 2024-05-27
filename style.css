@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Protest Guerrilla", sans-serif;
+   
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(img/fundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo{
+    opacity: 90%;
+    font-size: 36px;
+    color: #FFF;
+    letter-spacing: 4px;
+    
+}
+
+span{
+    color: #4338af;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+i{
+    margin-right: 3.5px;
+}
+
+nav{
+    padding: 27px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    opacity: 90%;
+    color: #4338af;
+    text-decoration: none;
+    background-color: #4338af;
+    padding: 13px 37px;
+    font-size: 27px;
+    border-radius: 30px;
+    border-color: transparent;
+
+}
+
+
+
+
+
+
+
+
+
+button a{
+    opacity: 100%;
+    color: #FFF;
+    text-decoration: none;
+    border: none;
+}
+
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+    
+}   
+
+h1{
+
+color: #FFF;}
+
+
+p{
+    
+    /* Primeiro passo: definir um degradê como fundo */
+    background-image: linear-gradient(to bottom, #4338af, #ffffff, rgb(47, 117, 207));
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color: black;
+    
+  }
+  
+  .texto{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    letter-spacing: 1px;
+  }
+  .text h1,.span2{
+    font-weight: 800;
+    font-size: 80px;
+    letter-spacing: 5px;
+  }
+
+  .text p{
+    font-family: "DotGothic16", sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    word-spacing: 3px;
+    margin-bottom: 40px;
+    
+  }
+
+
+span2{
+  color: #4338af;
+}
+
+
+.btnone{
+margin: 0px 10px;
+border: 2px solid #4338af;
+padding: 13px 35px;
+letter-spacing: 1px;
+color: #FFF;
+border-radius: 30px;
+background-color: #4338af;
+text-decoration: none;
+}
+
+.btnone:hover{
+  border: 2px solid #4338af;
+  color: #4338af;
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.btntwo{
+  margin: 0px 10px;
+  border: 2px solid #4338af;
+  padding: 13px 35px;
+  letter-spacing: 1px;
+  color: #FFF;
+  border-radius: 30px;
+  background-color: #4338af;
+  text-decoration: none;
+  }
+
+
+  .btntwo:hover{
+    border: 2px solid #4338af;
+    color: #4338af;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+body {
+  overflow: hidden;
+}
+
+img {
+  display: none;
+  width: 10px;
+  height: 10px;
+}
+
+.transicao {
+  width: 100%;
+  transition: width, height 4s;
+}
